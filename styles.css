@@ -6,4 +6,15 @@ html {
 body {
     text-align: center;
     list-style-position: inside;
+    background-color: #096e77;
+    color: #F6F6F6;
+    font: Georgia;
+    font: 1em sans-serif;
+}
+
+.center_text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
