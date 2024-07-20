@@ -18,3 +18,10 @@ body {
     margin-right: auto;
     width: 70%;
 }
+
+.left_align{
+    text-align: left; 
+   
+    margin-left: auto; 
+    margin-right: auto; 
+}
