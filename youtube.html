@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Youtube.com Clone</title>
-    <style>
-      .thumbnail{
-        width: 300px; 
-        object-fit: contain ; 
-        object-position: right; 
-        display: block; 
-      }
-      .search-bar{
-        font-size: 20px;
-        margin-left: 12px; 
-        display:block; 
-      }
-      .video-title{
-        width:300px;
-      }
+<head>
+  <title>Youtube.com Clone</title>
+  <style>
+    .thumbnail{
+      width: 300px; 
+      object-fit: contain ; 
+      object-position: right; 
+      display: block; 
+    }
+    .search-bar{
+      font-size: 20px;
+      margin-left: 12px; 
+      display:block; 
+    }
+    .video-title{
+      width:300px;
+    }
+    .video-preview{
+      width: 300px;
+    }
 
-      
-    </style>
-  </head>
+    
+  </style>
+</head>
 
-  <body>
+<body>
+  <div class="video-preview">
     <input class="search-bar" type="textbox" placeholder="Search">
     <img class= "thumbnail" src = "thumbnails/thumbnail-1.webp">
 
@@ -35,7 +39,7 @@
     <p class="video-stats">
       3.4M views &#183; 6 months ago
     </p>
-
-  </body>
+  </div>
+</body>
 
 </html>
